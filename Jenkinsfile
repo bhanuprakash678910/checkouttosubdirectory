@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  options { checkoutToSubdirectory('somedir') }
+  options {overrideIndexTriggers(true) }
   stages {
     stage("checkout") {
        steps {
