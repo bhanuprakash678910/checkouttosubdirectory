@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage("checkout") {
        steps {
-         sh 'echo hello world'
+         sh 'touch file1'
       }
    }
   }
